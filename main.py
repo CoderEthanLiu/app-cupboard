@@ -38,3 +38,5 @@ with col3:
             st.image("images/" + image)
         for url in row["Urls"].split(", "):
             st.write(f"[Source Page]({url})")
+        st.write(row["Purchase price"])
+        st.write(row["Promotional activity"])
